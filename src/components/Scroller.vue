@@ -406,9 +406,9 @@
         this.loadingState = hideSpinner ? 2 : 0
         this.showLoading = false
 
-        if (this.loadingState == 2) {
-          this.resetLoadingState()
-        }
+        // if (this.loadingState == 2) {
+        //   this.resetLoadingState()
+        // }
       },
 
       triggerPullToRefresh() {
